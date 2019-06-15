@@ -1,5 +1,6 @@
 <?php
   
+  // all test case ... 
   $t_V = isset($_GET['v']) && !empty($_GET['v']);
   $t_P = isset($_GET['p']) && !empty($_GET['p']);
   $t_S = isset($_GET['s']) && !empty($_GET['s']);
@@ -13,6 +14,11 @@
     $Q = $_GET['qte'];
 
     echo (" Vous avez commandé $Q $P $S auprés de M. $V ");
+
   }else{
+
     echo (" il manque une formation de votre commande .. ");
+
   }
+
+?>
